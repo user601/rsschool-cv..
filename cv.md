@@ -2,8 +2,8 @@
 
 * _contacts:_
 
-- telegramm: https://t.me/Arni012
-- mail: artemlisicin55@gmail.com
+ >telegramm: https://t.me/Arni012
+ >mail: artemlisicin55@gmail.com
 
 * about me
 
