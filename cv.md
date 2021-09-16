@@ -17,3 +17,6 @@
 - git
 - js
 - HTML&amp;CSS
+
+4.  _code:_
+    `function addSelect() { let select = document.createElement('select') select.classList.add('city') for (let id in cities) { let option = document.createElement('option'); option.textContent = cities[id]; option.value = id; select.append(option); }`
