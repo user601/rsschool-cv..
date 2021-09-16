@@ -20,3 +20,11 @@
 
 4.  _code:_
     `function addSelect() { let select = document.createElement('select') select.classList.add('city') for (let id in cities) { let option = document.createElement('option'); option.textContent = cities[id]; option.value = id; select.append(option); }`
+
+5.  _education_
+
+- graduated from the institute as power engineer,
+  studied html and css (grid layout, flex box) gulp I also study the frontend at the Rolling Scopes online school
+  learning project : https://github.com/user601/glee2.git
+
+6. My english level A1
