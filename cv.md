@@ -5,7 +5,7 @@
  telegramm: https://t.me/Arni012
  mail: artemlisicin55@gmail.com
 
-* about me
+* _about me_
 
 > I study the frontend, I know html css well, use gulp
 
