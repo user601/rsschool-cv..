@@ -92,6 +92,9 @@ body {
 .header__content-bottom::after {
   background-image: url("../images/Union.png");
 }
+.contacts {
+  margin-bottom: 120px;
+}
 .contacts__title,
 .skills__title,
 .presentation__title {
@@ -103,6 +106,7 @@ body {
 .contacts__items {
   margin-bottom: 10px;
 }
+
 .contacts__item,
 .skills__list-items,
 .presentation__text,
