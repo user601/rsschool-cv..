@@ -105,7 +105,8 @@ body {
 }
 .contacts__item,
 .skills__list-items,
-.presentation__text {
+.presentation__text,
+.code__title {
   font-size: 25px;
   line-height: 40px;
   border-bottom: 2px solid #ffff;
@@ -126,7 +127,14 @@ body {
   font-size: 30px;
   color: #ffff;
 }
-
+.code {
+  margin-bottom: 120px;
+}
+.code__exemple {
+  border-radius: 25px;
+  background: linear-gradient(109.59deg, rgba(55, 54, 54, 0.4) -6.12%, rgba(188, 188, 188, 0) 30.03%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
 .foter__content-item--year {
   font-size: 30px;
   font-weight: 600;
