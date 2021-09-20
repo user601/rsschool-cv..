@@ -35,6 +35,9 @@ body {
 .menu {
   margin: 30px;
 }
+.menu__btn {
+  display: none;
+}
 .menu__list {
   display: flex;
   justify-content: space-evenly;
@@ -97,7 +100,8 @@ body {
 }
 .contacts__title,
 .skills__title,
-.presentation__title {
+.presentation__title,
+.code__title {
   color: #ffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 30px;
@@ -109,8 +113,7 @@ body {
 
 .contacts__item,
 .skills__list-items,
-.presentation__text,
-.code__title {
+.presentation__text {
   font-size: 25px;
   line-height: 40px;
   border-bottom: 2px solid #ffff;
@@ -147,4 +150,89 @@ body {
 #Layer_1 {
   width: 200px;
   height: 200px;
+}
+
+@media (max-width: 1270px) {
+  .header__content-bottom::before {
+    top: -30px;
+    left: 0;
+  }
+  .header__content-img {
+    border-radius: 15px;
+    z-index: 10;
+  }
+  .footer__list {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1200px) {
+  .header__content-bottom {
+    justify-content: space-evenly;
+  }
+  .header__content-bottom::after {
+    right: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .header__title {
+    font-size: 25px;
+  }
+  .header__subtitle {
+    font-size: 22px;
+  }
+  .contacts__title,
+  .skills__title,
+  .presentation__title,
+  .code__title {
+    font-size: 22px;
+  }
+  .contacts__item,
+  .skills__list-items,
+  .presentation__text {
+    font-size: 20px;
+  }
+  .presentation__span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .menu__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 85px;
+    background: linear-gradient(109.59deg, rgba(55, 54, 54, 0.4) -6.12%, rgba(188, 188, 188, 0) 108.03%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    flex-direction: column;
+    display: block;
+    text-align: center;
+  }
+  .menu__list-item {
+    margin: 30px 0;
+  }
+  .menu__list-link {
+    display: block;
+  }
+
+  .menu__btn {
+    display: block;
+    margin-left: 90%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .header__content-bottom::after {
+    top: 169px;
+    width: 200px;
+    right: 0px;
+  }
+  .header__content-img {
+    max-width: 140px;
+  }
+  .header__subtitle {
+    font-size: 20px;
+  }
+  .header__title {
+    z-index: 5;
+  }
 }
